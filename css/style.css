@@ -1,0 +1,35 @@
+.flexible {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    margin: 15px;
+}
+
+.flexible > div {
+    margin: 2px;
+    padding: 2px;
+    border: solid 1px lightgray;
+    border-radius: 15%;
+    min-width: 30px;
+    font-size: 2em;
+    text-align : center;
+}
+
+.lettreGood {
+    background-color: gray ;
+    color: white;
+}
+
+.lettreBad {
+    color:brown;
+}
+
+
+input {
+    margin:2px;
+    border-radius: 10px;
+    text-align : center;
+}

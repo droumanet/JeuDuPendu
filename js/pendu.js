@@ -4,6 +4,7 @@ let mots = ["noel", "paques", "revolution", "nouvel an", "assomption", "toussain
 let lettresConnues = []
 let lettresMauvaises = []
 let monMot
+let score = 11      // nombre d'élément du dessin du pendu
 
 // Cette fonction vérifie si la lettre choisie existe dans la liste des lettres connues, sinon renvoie un '_'
 function verifier(lettre) {

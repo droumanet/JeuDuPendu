@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du pendu</title>
+    <style>
+        @import url("./css/style.css");
+    </style>
+</head>
+<body>
+    <h1>Jeu du pendu</h1>
+    <p>Trouvez le mot ou la phrase</p>
+    <div class="flexible" id="motComplet">MOT</div>
+    <p>Choisissez une lettre...</p>
+    <input type="text" maxlength="1" max="1" id="jouerLettre" autofocus>
+    <p>Liste des lettres déjà testées :</p>
+    <div class="flexible" id="anciennesLettres"></div>
+    <script src="./js/pendu.js"></script>
+</body>
+</html>
